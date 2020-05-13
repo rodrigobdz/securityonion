@@ -12,6 +12,10 @@ Available on Docker Hub as [rodrigobdz/securityonion](https://hub.docker.com/r/r
   docker run --rm --interactive --tty rodrigobdz/securityonion:latest bash --login
   ```
 
+## Related Projects
+
+- [rodrigobdz/ubuntu](https://hub.docker.com/r/rodrigobdz/ubuntu) Base Docker image for this image
+
 ## Credits
 
 - [minimal-readme](https://github.com/rodrigobdz/minimal-readme)
