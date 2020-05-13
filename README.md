@@ -12,6 +12,8 @@ Available on Docker Hub as [rodrigobdz/securityonion](https://hub.docker.com/r/r
   sudo sosetup
   ```
 
+- Follow [post-installation](https://securityonion.readthedocs.io/en/latest/post-installation.html) guide
+
 ## Usage
 
 - Test in a temporary container
