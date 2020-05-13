@@ -28,8 +28,6 @@ RUN sudo add-apt-repository -y ppa:securityonion/stable
 RUN sudo apt-get update
 # Install the securityonion-all metapackage
 RUN sudo apt-get -y install securityonion-all syslog-ng-core
-# Run the Setup wizard
-RUN sudo sosetup
 
 ENV DEBIAN_FRONTEND teletype
 

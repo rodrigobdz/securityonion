@@ -4,6 +4,14 @@
 
 Available on Docker Hub as [rodrigobdz/securityonion](https://hub.docker.com/r/rodrigobdz/securityonion)
 
+## Requirements
+
+- Run setup wizard
+
+  ```sh
+  sudo sosetup
+  ```
+
 ## Usage
 
 - Test in a temporary container
