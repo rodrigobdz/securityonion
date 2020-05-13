@@ -27,6 +27,7 @@ Available on Docker Hub as [rodrigobdz/securityonion](https://hub.docker.com/r/r
 ## Known Issues
 
 - Systemctl is not configured by default in Docker image.
+  - Possible solutions: [[1]](https://github.com/moby/moby/issues/30723#issuecomment-365927679), [[2]](https://hub.docker.com/r/kevincoakley/ubuntu16.04-systemd/dockerfile/), [[3]](https://hub.docker.com/r/jrei/systemd-ubuntu/dockerfile)
 
 ## Related Projects
 
