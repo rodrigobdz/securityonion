@@ -14,6 +14,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 # Install ifconfig
 RUN apt-get install --assume-yes net-tools
 
+# Install resolvconf
+RUN apt-get install -y apt-utils debconf-utils dialog
+RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
+RUN echo "resolvconf resolvconf/linkify-resolvconf boolean false" | debconf-set-selections
+RUN apt-get update
+RUN apt-get install -y resolvconf
+
 # Configure MySQL not to prompt for root password
 RUN echo "debconf debconf/frontend select noninteractive" | sudo debconf-set-selections
 # Clean apt list repository

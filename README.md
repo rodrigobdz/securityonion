@@ -12,7 +12,9 @@ Available on Docker Hub as [rodrigobdz/securityonion](https://hub.docker.com/r/r
   sudo sosetup
   ```
 
-- Follow [post-installation](https://securityonion.readthedocs.io/en/latest/post-installation.html) guide
+- Follow the [Disabling Desktop](https://securityonion.readthedocs.io/en/latest/desktop.html) guide
+
+- Follow the [After Installation](https://securityonion.readthedocs.io/en/latest/post-installation.html) guide
 
 ## Usage
 
@@ -21,6 +23,10 @@ Available on Docker Hub as [rodrigobdz/securityonion](https://hub.docker.com/r/r
   ```sh
   docker run --rm --interactive --tty rodrigobdz/securityonion:latest bash --login
   ```
+
+## Known Issues
+
+- Systemctl is not configured by default in Docker image.
 
 ## Related Projects
 
