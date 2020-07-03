@@ -1,6 +1,6 @@
 # Security Onion Docker image
 
-> Docker image with Security Onion pre-installed on Ubuntu 16.04
+> [WIP] Docker image with Security Onion pre-installed on Ubuntu 16.04
 
 Available on Docker Hub as [rodrigobdz/securityonion](https://hub.docker.com/r/rodrigobdz/securityonion)
 
